@@ -1,0 +1,83 @@
+.home-page{
+    min-height: 100vh;
+    width:100vw;
+    background: black;
+    background: url('../../assets/images/lights.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.business-img{
+    /* background: url('../../assets/images/bu.svg'); */
+    /* border: 2px solid red; */
+    min-height: 600px;
+    background-size: cover;
+    max-width: 800px;
+    padding-top: 100px;
+}
+
+.black-layer{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0 0 0 / .4);
+    position: absolute;
+    z-index: 1;
+}
+.home-heading{
+    font-size: 5rem;
+    position: relative;
+    z-index: 10
+}
+.z-10{
+    z-index: 10;
+    position: relative
+}
+.home-page .container, .be-freelancer .container{
+    min-height: 100vh;
+}
+.home-page .container .form-control{
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.be-freelancer{
+    min-height: 100vh;
+    width: 100vw;
+    background: black;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background: #3800B6;
+}
+
+.be-freelancer .wannabe{
+    font-size: 3.5rem;
+}
+
+.register-btn{
+    border: 1px solid #3800B6;
+    background: #3800B6;
+}
+
+@media (min-width: 768px) {
+    .row-equal {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .col-equal {
+      margin: auto;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .home-heading{
+        font-size: 3rem;
+    }
+    .wannabe{
+        font-size: 2rem;
+    }
+}
